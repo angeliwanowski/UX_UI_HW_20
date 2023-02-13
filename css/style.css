@@ -1,0 +1,255 @@
+body {
+    background-color: #FFF4E0;
+    margin: 20px;
+}
+
+hr {
+    border-top: 5px solid #101ECB;
+    margin: 20px;
+    color: #101ECB;
+    opacity: 100%;
+
+} 
+.projectHero {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.jumbocontainer {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.theContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #101ECB;
+    margin-bottom: 25px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #101ECB;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #101ECB;
+    line-height: 1.75;
+}
+.tab {
+    width: 182px;
+    height: 92px;
+}
+.navbarBrand {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: 25px;
+}
+.navbarLogo {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 40px;
+    font-weight: 600;
+    color: #101ECB;
+    text-decoration: none;
+    line-height: 40px;
+    margin-left: 25px;
+}
+.accordion {
+    font-family: 'Raleway', sans-serif !important;
+    background-color: #FFF4E0 !important;
+    --bs-accordion-border-radius: none;
+    --bs-accordion-inner-border-radius: none;
+    --bs-accordion-btn-focus-border-color: #101ECB;
+    --bs-accordion-btn-focus-box-shadow: none;
+    width: 900px;
+}
+.accordion-button {
+    font-size: 40px;
+    background-color: #FFF4E0;
+}
+.accordion-button {
+    --bs-accordion-active-bg: #101ECB;
+    --bs-accordion-btn-color: #101ECB;
+    --bs-accordion-active-color: #FFF4E0;
+
+}
+.accordion-item {
+    border: solid 4px #101ECB;
+    background-color: #FFF4E0;
+}
+.caseStudyHeader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #101ECB;
+    line-height: 2;
+
+}
+.casestudySubheader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #101ECB;
+    margin-top: 10px;
+    line-height: 1.75;
+
+}
+.caseStudyList li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #101ECB;
+}
+.quotes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #101ECB;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    line-height: 2.25;
+    padding-top: 10px;
+}
+.bigNumber {
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #101ECB;
+}
+.statText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #101ECB;
+    line-height: 2.25;
+    padding-left: 10px;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.kathy {
+    width: 234px;
+    border: solid 4px #101ECB;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.persona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    flex-direction: column;
+    border: solid 2px #101ECB;
+    margin-bottom: 20px;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+.matrix {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.prototype {
+    width: 850px;
+}
+.midfi1 {
+    width: 250px;
+}
+.midfi2 {
+    width: 250px;
+}
+.midfi3 {
+    width: 250px;
+}
+.imageHolder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.iteration {
+    width: 300px;
+    margin-left: 50px;
+}
+.overview {
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    width: 900px;
+    flex-direction: column;
+    border: solid 4px #101ECB;
+    padding-bottom: 25px;
+}
+.containerOverview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theBoys li{
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: #101ECB;
+        line-height: 1.75;
+        border: solid 3px #101ECB;
+        list-style: none;
+        padding: 5px;
+}
+.theBoys {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 60px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: left;
+    width: 850px;
+}
+.onlyWords {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.prototype2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gifY {
+    width: 400px;
+
+}
+
+.imageParent {
+
+    display: flex;
+    justify-content: center;
+}
