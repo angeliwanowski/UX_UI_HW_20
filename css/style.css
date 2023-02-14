@@ -244,12 +244,21 @@ p {
     flex-direction: column;
 }
 .gifY {
-    width: 400px;
+    width: 350px;
 
 }
 
 .imageParent {
-
+    display: flex;
+    justify-content: center;
+}
+.prototypeHolder {
+    display: flex;
+    justify-content: center;
+    border: solid 4px #101ECB;
+    width: 900px;
+}
+.master {
     display: flex;
     justify-content: center;
 }
